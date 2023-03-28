@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Guides
-      link: /apps
+      link: /sidewinder-x1/firmware
 
 features:
   - title: Windows

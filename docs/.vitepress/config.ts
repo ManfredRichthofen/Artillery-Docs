@@ -1,17 +1,14 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   outDir: '../dist',
-  title: "Movies",
-  description: "Server Guides",
-  
+  title: "A3D",
+  description: "A3D Wiki",
   
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guides', link: '/jellyfin/apps' }
+      { text: 'X1', link: '/sidewinder-x1/firmware' },
     ],
 
     sidebar: [
@@ -42,13 +39,6 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
-      { icon: 'twitter', link: '...' },
-      {
-        icon: {
-          svg: '<img src = "/imgs/jellyfin.svg" alt="jellyfin" width="24" height="24"/>'
-        },
-        link: 'https://jfapp.xyz'
-      }
     ]
   }
 })
