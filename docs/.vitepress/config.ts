@@ -8,34 +8,35 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'X1', link: '/sidewinder-x1/firmware' },
+      { text: 'X1', link: '/sidewinder-x1/' },
+      { text: 'X2', link: '/sidewinder-x2/' },
+      { text: 'Genius', link: '/genius/' },
     ],
 
-    sidebar: [
-      {
-        text: 'Jellyfin Guides',
-        collapsed: false,
-        items: [
-          { text: 'Apps', link: '/jellyfin/apps' },
-          { text: 'Requesting Movies', link: '/jellyfin/requests' },
-          { text: 'Request an Account', link: '/jellyfin/account' },
-          { text: 'Server Status', link: '/jellyfin/status' }
-        ]
-      },
-      {
-        text: 'Server Hosting Guides',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Upload Server Files', link: '/api-examples' }
-        ]
-      },
-      {
-        text: 'Discord Bot Guides',
-        items: [
-          { text: 'Music Bot', link: '/discord-bots/markdown-examples' },
-        ]
-      }
-    ],
+    sidebar: {
+
+      '/sidewinder-x1/': [
+        {
+          text: 'Guide',
+          items: [
+            { text: 'Firmware', link: '/sidewinder-x1/' },
+            { text: 'One', link: '/sidewinder-x1/Firmware' },
+            { text: 'Two', link: '/guide/two' }
+          ]
+        }
+      ],
+
+      '/sidewinder-x2/': [
+        {
+          text: 'Config',
+          items: [
+            { text: 'Index', link: '/sidewinder-x2/' },
+            { text: 'Three', link: '/config/three' },
+            { text: 'Four', link: '/config/four' }
+          ]
+        }
+      ]
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
