@@ -1,5 +1,4 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
@@ -9,16 +8,19 @@ hero:
     - theme: brand
       text: Sidewinder X1
       link: /sidewinder-x1/
+    - theme: brand
+      text: Sidewinder X2
+      link: /sidewinder-x2/
 
 features:
-  - title: Windows
+  - title: Discord Community
     details:
     link: 
-  - title: IOS/Apple TV
+  - title: Reddit Forum
     details: 
     link: 
-  - title: Android
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: 
+  - title: Official Site
+    details: 
+    link: https://google.com
 ---
 
