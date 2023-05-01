@@ -6,6 +6,10 @@ export default defineConfig({
   description: "A3D Wiki",
   cleanUrls: true,
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
+    
     nav: [
       { text: "Home", link: "/" },
       { text: "X1", link: "/sidewinder-x1/" },
@@ -18,31 +22,31 @@ export default defineConfig({
         {
           text: "Guide",
           items: [
-            { text: "Firmware", link: "/genius/" },
-            { text: "One", link: "/genius/Firmware" },
-            { text: "Two", link: "/genius/two" },
+            { text: "Firmware", link: "/sidewinder-x1/firmware" },
+            { text: "Slicer", link: "/sidewinder-x1/slicer" },
+            { text: "Hardware Mods", link: "/sidewinder-x1/hardware-mods" },
           ],
         },
       ],
 
       "/sidewinder-x1/": [
         {
-          text: "Guide",
+          text: "Guides",
           items: [
-            { text: "Firmware", link: "/sidewinder-x1/" },
-            { text: "One", link: "/sidewinder-x1/firmware" },
-            { text: "Two", link: "/sidewinder-x1/two" },
+            { text: "Firmware", link: "/sidewinder-x1/firmware" },
+            { text: "Slicer", link: "/sidewinder-x1/slicer" },
+            { text: "Hardware Mods", link: "/sidewinder-x1/hardware-mods" },
           ],
         },
       ],
 
       "/sidewinder-x2/": [
         {
-          text: "Config",
+          text: "Guides",
           items: [
-            { text: "Index", link: "/sidewinder-x2/" },
-            { text: "Three", link: "/sidewinder-x2/three" },
-            { text: "Four", link: "/sidewinder-x2/four" },
+            { text: "Firmware", link: "/sidewinder-x1/firmware" },
+            { text: "Slicer", link: "/sidewinder-x1/slicer" },
+            { text: "Hardware Mods", link: "/sidewinder-x1/hardware-mods" },
           ],
         },
       ],
